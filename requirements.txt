@@ -1,0 +1,9 @@
+tkinter==3.10
+mysql.connector==8.0.31
+webbrowser==3.10
+os==3.10
+subprocess==3.10
+PIL==9.5.0
+re==2.2.1
+datetime==3.10
+io==3.10
