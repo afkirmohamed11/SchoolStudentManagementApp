@@ -27,7 +27,7 @@ def suivant():
               cne=CNE_field.get()
               db.insert_data_sign_up_phase2(field_adress.get(),cne,CIN_field.get(),photo_field.get())
               window.destroy()
-              with open(r"fichierLog.txt","w+") as file:
+              with open(r"log.txt","w+") as file:
                       file.write(cne+"\n")
                       
               subprocess.run(["python",current_path+r"/signUp3.py"])

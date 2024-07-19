@@ -26,7 +26,7 @@ def button_suivant():
 
         
 def go_to_luncher():
-        subprocess.run(["python",current_path+"\\Luncher.py"])
+        subprocess.run(["python",current_path+"\\Launcher.py"])
         window.quit()      
 
 

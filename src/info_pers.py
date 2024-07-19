@@ -20,7 +20,7 @@ account.config(bg="white")
 iconsbarr=Frame(account,width=155,height=1440,bg="#15b4ea")
 iconsbarr.place(x=0,y=0)
 def username():
-    logfile=open("fichierlog.txt",'r')
+    logfile=open("log.txt",'r')
     users=logfile.read().split("\n")
     print(users)
     username=users[0]
@@ -36,7 +36,7 @@ def get_user_second_name():
     return result[0]
 def log_out():
     account.destroy()
-    subprocess.run(["python",current_path+"\\Luncher.py"])
+    subprocess.run(["python",current_path+"\\Launcher.py"])
 def get_user_first_name():
     cursorr.execute("SELECT nom from Etudiant where Cne='"+username()+"';")
     result=cursorr.fetchone()

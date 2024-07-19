@@ -38,16 +38,26 @@ The app employs a MySQL database to securely store student-related information. 
     - MySQL
     - Python (at least version 3.10)
     
-## Packages used for Python:
-    - tkinter
-    - mysql.connector
-    - webbrowser
-    - os
-    - PIL
-    - subprocess
-    - re
-    - datetime
-    - io
+
+## Install the required packages
+
+```bash
+> pip install -r requirements.txt
+```
+<br>
+
+## Other steps to do:
+```bash
+> copy .env.example .env
+```
+
+```bash
+> copy log.example.txt log.txt
+```
+
+```bash
+> copy data.example.txt data.txt
+```
 
 ## Be careful 1:
     You need to set your local Mysql server database info to store the app data correctly.To do so, check the "School.py" file

@@ -83,7 +83,7 @@ database = mysql.connector.connect(host='localhost',
 #------------------------create cursor---------------------------------------------
 cursorr=database.cursor()
 def username():
-    logfile=open("fichierlog.txt",'r')
+    logfile=open("log.txt",'r')
     users=logfile.read().split("\n")
     print(users)
     username=users[0]

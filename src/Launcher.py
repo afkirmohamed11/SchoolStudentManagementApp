@@ -34,7 +34,7 @@ def pass_account():
     
     if authentification==password_text:
         print("script runned")
-        fichier_log=open("fichierLog.txt",'w+')
+        fichier_log=open("log.txt",'w+')
         fichier_log.write(nomfield.get()+"\n")
         fichier_log.close()
         window.destroy()

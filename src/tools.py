@@ -48,4 +48,4 @@ def cours(account):
 
 def log_out(account):
     account.destroy()
-    subprocess.run(["python",current_path+"\\Luncher.py"])
+    subprocess.run(["python",current_path+"\\Launcher.py"])

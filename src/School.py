@@ -23,9 +23,7 @@ def connecter(user,bddn,passwd):
     subprocess.run(command, input=script.encode("utf-8"), shell=True)
 
 
-file=open(r"config.properties","r")
-var=file.read().split("=")[1].replace("\n","")
-file.close()
+var = os.getenv('var')
 
 
 cuurent_path =os.getcwd()
@@ -43,10 +41,10 @@ while True:
             crs.execute("SELECT * FROM BentouhamiAfkirAkkouh;")
             print(crs.fetchone())
 
-        subprocess.run(["python",cuurent_path+"\\Luncher.py"])
+        subprocess.run(["python",cuurent_path+"\\Launcher.py"])
             
 
-        with open(r"config.properties","w") as file:
+        with open(r".env","w") as file:
             file.write("var=1")
         break
     except:

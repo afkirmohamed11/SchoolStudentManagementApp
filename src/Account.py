@@ -25,7 +25,7 @@ def personel():
     personel.config(bg="white")
 def log_out():
     account.destroy()
-    subprocess.run(["python",current_path+"\\Luncher.py"])
+    subprocess.run(["python",current_path+"\\Launcher.py"])
 
 #--------------subprocesses-------------------------------------
 

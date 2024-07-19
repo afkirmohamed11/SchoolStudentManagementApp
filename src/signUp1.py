@@ -33,7 +33,7 @@ def button_suivant():
         
 def go_to_luncher():
         window.destroy()      
-        subprocess.run(["python",current_path+"\\Luncher.py"])
+        subprocess.run(["python",current_path+"\\Launcher.py"])
 
 
 

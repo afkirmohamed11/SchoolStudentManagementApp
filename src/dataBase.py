@@ -121,7 +121,7 @@ class DataBase:
             
     #-----get name and prenom d'étudiant
     def getStudent(self):
-        with open(r"fichierLog.txt","r") as fL:
+        with open(r"log.txt","r") as fL:
             cne=fL.readlines()[0].replace("\n","")
         requete="SELECT NOM,PRENOM,filière FROM ETUDIANT WHERE CNE=%s"
         self.cursor.execute(requete,(cne,))
@@ -140,7 +140,7 @@ class DataBase:
     #---------recuperation du cne d'utilisateur connecter--------------
     @staticmethod
     def get_cne_user_connecter():
-        with open(r"fichierLog.txt","r") as fL:
+        with open(r"log.txt","r") as fL:
             cne=fL.readlines()[0].replace("\n","")
             return cne
 

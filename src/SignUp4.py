@@ -21,11 +21,11 @@ def Accueil():
 
 def Connect():
         window.destroy()
-        subprocess.run(["python",current_path+"\\Luncher.py"])
+        subprocess.run(["python",current_path+"\\Launcher.py"])
 #---------creation du l'icon
 passwd_icon=create_icon(current_path+"\\icons\\success_icon.png",(200,200))
-image_label=Label(window,compound="top", text="Les modificaions saisies sont\n enregistrées avec succès",image=passwd_icon,padx=0,pady=0,relief="flat",bg="white",activebackground="green",font=("Louis George Cafe",15,"bold"),fg="#0fb61d")
-image_label.place(x=500,y=150)
+image_label=Label(window,compound="top", text="vous êtes enregistré avec succées",image=passwd_icon,padx=0,pady=0,relief="flat",bg="white",activebackground="green",font=("Louis George Cafe",15,"bold"),fg="#0fb61d")
+image_label.place(x=430,y=150)
 image_label.config(highlightthickness=0)
 
 
