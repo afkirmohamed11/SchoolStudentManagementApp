@@ -1,4 +1,4 @@
-# Tkinter_Project
+# School Management Project
 This project is a simulation of a school student data management application using tkinter library.
 
 
