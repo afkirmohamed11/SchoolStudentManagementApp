@@ -12,7 +12,7 @@ The "Student Data Management Application" is a comprehensive and user-friendly d
 
 ## The app first interface:
 
-<img width="769" alt="image" src="icons/screenshot.png">
+<img width="769" alt="image" src="src/icons/screenshot.png">
 
 
 
