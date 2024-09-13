@@ -73,6 +73,12 @@ The app employs a MySQL database to securely store student-related information. 
     If you encounter any problems, please do not hesitate to contact us via email.
     Best regards.
 
+## Connect and Collaborate
+
+Feel free to connect and collaborate on [LinkedIn](https://www.linkedin.com/in/mohamed-afkir-1bbb9729a)<br>
+or contact me via [email](mailto:mohamedafkir078@gmail.com)
+
+
     
 # Made by:
     - AFKIR MOHAMED
